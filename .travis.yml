@@ -1,0 +1,13 @@
+language: ruby
+branches:
+  except:
+    - gh-pages
+
+rvm:
+  - ruby-head
+  - ruby-2.3.1
+  - ruby-2.2.5
+
+matrix:
+  allow_failures:
+    - rvm: ruby-head
